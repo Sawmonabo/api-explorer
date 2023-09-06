@@ -1,0 +1,139 @@
+.explorer-container {
+    margin-top: 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 50vh;
+    font-family: Arial, sans-serif;
+  }
+  
+  .explorer-container .center-box {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 25px;
+    padding: 20px;
+    width: 720px;
+    max-width: 100%;
+    background-color: #f5f5f5;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+  }
+
+  .explorer-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .explorer-container form label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+  }
+
+  .explorer-container form label input[type="text"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 90%;
+    min-width: max-content;
+  }
+
+  .explorer-container .endpoint-select label select {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    min-width: max-content;
+  }
+
+  .explorer-container .request{
+    width: 80%;
+  }
+
+  .explorer-container .request .request-body .checkbox {
+    display: inline-flex;
+    flex-direction: row;
+    text-align: right;
+    margin-inline: 5px;
+  }
+
+  .explorer-container .request .request-body .checkbox .input{
+    /* display: inline-flex; */
+    flex-direction: row;
+    text-align: left;
+  }
+
+  /* Checkbox group styles */
+  .explorer-container .request .request-body .checkbox-group {
+    /* display: flex; */
+    display: -webkit-inline-flex;
+    margin-inline: 20px;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+  }
+
+  /* Checkbox column styles */
+  .explorer-container .request .request-body .checkbox-group > .checkbox-column {
+    flex-basis: 48%; /* Adjust this value to control the width of each column */
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* Checkbox item styles */
+  .explorer-container .request .request-body .checkbox-group .checkbox-item {
+    margin-bottom: 10px; /* Adjust this value to control the spacing between checkboxes */
+  }
+
+  .explorer-container .request .request-body button[type="submit"] {
+    margin-top: 25px;
+    padding: 5px 10px;
+    width: 100%;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+  }
+  
+  .explorer-container .request-body button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  .explorer-container h1,
+  .explorer-container h2,
+  .explorer-container h3,
+  .explorer-container h4,
+  .explorer-container h5,
+  .explorer-container h6 {
+    margin: 20px;
+    margin-top: 30px;
+    text-align: center;
+  }
+
+  .explorer-container pre {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 4px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    overflow: auto;
+  }
+
+  .explorer-container .response {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    display: max-content;
+    width: 75%;
+  }
+
+  .explorer-container .ReactJson {
+    margin-top: 20px;
+  }
+  
+  .explorer-container .response_hidden {
+    display: none;
+  }

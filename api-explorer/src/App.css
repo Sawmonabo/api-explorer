@@ -1,0 +1,13 @@
+.redoc {
+  /* background-image: url('./images/img-2.jpg'); */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.swagger {
+  /* background-image: url('./images/img-3.jpg'); */
+  background-position: center;
+  background-size: fill;
+  background-repeat: no-repeat;
+}
